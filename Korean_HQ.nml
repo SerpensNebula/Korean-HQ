@@ -1,0 +1,113 @@
+// NewGRF general
+    grf {
+        grfid:                              "KSHQ";
+        name:                               string(STR_GRF_NAME);
+        desc:                               string(STR_GRF_DESC);
+        url:                                string(STR_GRF_URL);
+        version:                            240303;
+        min_compatible_version:             240303;
+    }
+
+// Templates
+    // etc.
+        template tmpl_empty(x, y) {
+            [x, y, 1, 1, 0, 0]
+        }
+
+    // low_building
+        template tmpl_low_building_2x2_north(x, y) {
+            [x, y, 140, 140, -69, -76]
+        }
+
+        template tmpl_low_building_2x2_east(x, y) {
+            [x, y, 140, 140, -101, -92]
+        }
+
+        template tmpl_low_building_2x2_west(x, y) {
+            [x, y, 140, 140, -37, -92]
+        }
+
+        template tmpl_low_building_2x2_south(x, y) {
+            [x, y, 140, 140, -69, -108]
+        }
+
+    // mid_building
+        template tmpl_mid_building_2X2_north(x, y) {
+            [x, y, 140, 180, -69, -116]
+        }
+
+        template tmpl_mid_building_2X2_east(x, y) {
+            [x, y, 140, 180, -101, -132]
+        }
+
+        template tmpl_mid_building_2X2_west(x, y) {
+            [x, y, 140, 180, -37, -132]
+        }
+
+        template tmpl_mid_building_2X2_south(x, y) {
+            [x, y, 140, 180, -69, -148]
+        }
+
+    // high_buidling
+        template tmpl_high_building_2x2_north(x, y) {
+            [x, y, 140, 290, -69, -226]
+        }
+
+        template tmpl_high_building_2x2_east(x, y) {
+            [x, y, 140, 290, -101, -242]
+        }
+
+        template tmpl_high_building_2x2_west(x, y) {
+            [x, y, 140, 290, -37, -242]
+        }
+
+        template tmpl_high_building_2x2_south(x, y) {
+            [x, y, 140, 290, -69, -258]
+        }
+
+// HQ
+    // 0 to 255
+
+    // 256 to 383
+
+    // 384 to 511
+
+    // 512 to 767
+
+    // 768 to 1000
+        replace (2626, "./Korean_HQ/gfx/HQ_768.png") { // building N
+            tmpl_high_building_2x2_north(0, 0)
+        }
+
+        replace (2628, "./Korean_HQ/gfx/HQ_768.png") { // building E
+            tmpl_high_building_2x2_east(150, 0)
+        }
+
+        replace (2630, "./Korean_HQ/gfx/HQ_768.png") { // building W
+            tmpl_high_building_2x2_west(300, 0)
+        }
+
+        replace (2625, "./Korean_HQ/gfx/HQ_768.png") { // ground N
+            tmpl_high_building_2x2_north(450, 0)
+        }
+
+        replace (2627, "./Korean_HQ/gfx/HQ_768.png") { // ground E
+            tmpl_high_building_2x2_east(600, 0)
+        }
+
+        replace (2629, "./Korean_HQ/gfx/HQ_768.png") { // ground W
+            tmpl_high_building_2x2_west(750, 0)
+        }
+
+        replace (2631, "./Korean_HQ/gfx/HQ_768.png") { // ground S
+            tmpl_high_building_2x2_south(900, 0)
+        }
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   /* 본사건물
+   0  : 조선총독부 철도국 청사
+   256: 
+   384: 서울메트로 본사
+   512: 한국철도공사 서울본부
+    */
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

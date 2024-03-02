@@ -1,0 +1,7 @@
+##grflangid 0x01
+
+# GRF name and description
+STR_GRF_NAME                                      	:Korean HQ 1.0
+STR_GRF_DESC                                      	:Korean HQ adds Korean style headquarters except North Korea. {}{}{BLACK}License: {SILVER}GNU GPL v3
+
+STR_GRF_URL                                       	:https://github.com/SerpensNebula/Korean-HQ
