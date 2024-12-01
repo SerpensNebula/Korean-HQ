@@ -4,7 +4,7 @@
         name:                               string(STR_GRF_NAME);
         desc:                               string(STR_GRF_DESC);
         url:                                string(STR_GRF_URL);
-        version:                            241129;
+        version:                            241201;
         min_compatible_version:             240312;
     }
 
