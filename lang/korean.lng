@@ -2,6 +2,6 @@
 
 # GRF name and description
 STR_GRF_NAME                                      	:한국 HQ
-STR_GRF_DESC                                      	:이 NewGRF는 한국 스타일의 회사 본사 건물을 추가해줍니다. 1단계와 4단계 건물은 추가 예정입니다. {}{}{BLACK}5단계: {SILVER}한국철도공사 본사 {}{}{BLACK}라이센스: {SILVER}GNU GPL v3
+STR_GRF_DESC                                      	:이 NewGRF는 한국 스타일의 회사 본사 건물을 추가해줍니다. 1단계에서 3단계 건물은 추가 예정입니다. {}{}{BLACK}4단계: {SILVER}한국철도공사 서울본부{}{BLACK}5단계: {SILVER}한국철도공사 본사{}{}{BLACK}라이센스: {SILVER}GNU GPL v3
 
 STR_GRF_URL                                       	:https://github.com/SerpensNebula/Korean-HQ
